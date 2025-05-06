@@ -1,4 +1,4 @@
-#Booking App
+## **Booking App**
 
 - Calendar based booking system app
 - Users must submit an intake form and select available time slots on a calendar to book coaching sessions
