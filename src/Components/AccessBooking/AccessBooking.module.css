@@ -1,0 +1,117 @@
+/* ----------- */
+/* --IMPORTS-- */
+/* ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  
+  /* ---------- */
+  /* --STYLES-- */
+  /* ---------- */
+
+  /* ---------- */
+  /* CONTAINERS */
+  /* ---------- */
+
+  /* Base container */
+  .baseContainer{
+    padding-top: 60px;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+  }
+
+  .top {
+    background-color: rgb(255, 113, 113);
+    align-items: center;
+    height: 50%;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    overflow-y: hidden;
+  }
+
+  .bottom{
+    background-color: rgb(201, 255, 255);
+    align-items: center;
+    height: 50%;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    overflow-y: hidden;
+  }
+
+  /* ------------- */
+  /* HEADER STYLES */
+  /* ------------- */
+
+  /* BASE HEADER STYLE */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+    color:black;
+    box-sizing: border-box;
+  }
+
+  /* SECTION STYLE */
+  .headerSection{
+    font-family: Roboto;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* ----------- */
+  /* TEXT STYLES */
+  /* ----------- */
+
+  /* Base text style */
+  .baseText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: opacity 0.5s ease;
+    text-align: center;
+  }
+
+  /* Title text style */
+  .titleText {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 10px 40px rgba(255, 255, 255, 0.5);
+  }
+
+  /* Description text style */
+  .descText {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 10px 40px rgba(255, 255, 255, 0.5);
+  }
+
+  /* ------------------ */
+  /* LINK CUSTOMIZATION */
+  /* ------------------ */
+  .linkStyle{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .linkStyle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
