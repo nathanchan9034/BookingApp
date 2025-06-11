@@ -1,0 +1,123 @@
+  /* ---------- */
+  /* --STYLES-- */
+  /* ---------- */
+
+  /* ---------- */
+  /* CONTAINERS */
+  /* ---------- */
+
+  /* MAIN CONTAINER */
+  .outerContainer {
+    position: relative;
+    padding-top: 60px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* INNER CONTAINER (TOP) */
+  .innerContainerTop {
+    position:fixed;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* INNER CONTAINER (BOTTOM) */
+  .innerContainerBtm {
+    position:fixed;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  /* ------------- */
+  /* HEADER STYLES */
+  /* ------------- */
+
+  /* BASE HEADER STYLE */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+    color:black;
+    box-sizing: border-box;
+  }
+
+  /* SECTION STYLE */
+  .headerSection{
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* ----------- */
+  /* TEXT STYLES */
+  /* ----------- */
+
+  /* BASE TEXT STYLE */
+  .baseText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: opacity 0.5s ease;
+    text-align: center;
+  }
+
+  /* BASE TITLE STYLEs */
+  .baseTitle {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 4em;
+  }
+
+  /* BASE DESCRIPTION STYLES */
+  .baseDescription {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  /* COLORING FOR TOP AND BOTTOM TEXTS */
+  .topTitleDescColoring{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .bottomTitleDescColoring{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 10px 40px rgba(255, 255, 255, 0.5);
+  }
+
+  /* ------------------ */
+  /* LINK CUSTOMIZATION */
+  /* ------------------ */
+  .linkStyle{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .linkStyle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
