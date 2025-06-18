@@ -18,9 +18,10 @@ const CalendarBookingConfirmation = () => {
   };
 
   return selected ? (
-    <label>
-      Select a Title For Your Booking:
+    <label className={styles.inputField}>
+      Reason for Booking:
       <input
+        className={styles.inputText}
         type="text"
         name="title"
         value={inputs.title || ""}
